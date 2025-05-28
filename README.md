@@ -16,7 +16,7 @@ docker build -t mtcars-flask-api .
 docker run -p 8080:8080 mtcars-flask-api
 
 # (Optional but required for deployment)
-docker tag mtcars-flask-api maryv8/mtcars-api:latest
+docker tag mtcars-flask-api maryv8/mtcars-flask-api:latest
 docker push maryv8/mtcars-flask-api:latest
 ```
 

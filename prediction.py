@@ -1,6 +1,6 @@
 import pandas as pd
-from sklearn.linear_model import LinearRegression
 import numpy as np
+from sklearn.linear_model import LinearRegression
 
 df = pd.read_csv("mtcars.csv")
 X = df.drop(columns=["mpg"])

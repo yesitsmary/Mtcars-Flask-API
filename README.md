@@ -6,18 +6,18 @@ This project builds a linear regression model using the `mtcars.csv` dataset to 
 
 ### Step 1: Clone the repo
 ```bash
-git clone https://github.com/yesitsmary/Mtcars-API.git
-cd Mtcars-API
+git clone https://github.com/yesitsmary/Mtcars-Flask-API.git
+cd Mtcars-Flask-API
 ```
 
 ### Step 2: Build and run  Docker container
 ```bash
-docker build -t mtcars-api .
-docker run -p 8080:8080 mtcars-api
+docker build -t mtcars-flask-api .
+docker run -p 8080:8080 mtcars-flask-api
 
 # (Optional but required for deployment)
-docker tag mtcars-api maryv8/mtcars-api:latest
-docker push maryv8/mtcars-api:latest
+docker tag mtcars-flask-api maryv8/mtcars-api:latest
+docker push maryv8/mtcars-flask-api:latest
 ```
 
 ### Step 3: Send a test prediction

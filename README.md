@@ -1,6 +1,4 @@
-# Mtcars-Flask-API
-
-# Mtcars-API
+# Mtcars Flask API
 
 This project builds a linear regression model using the `mtcars.csv` dataset to predict miles-per-gallon (`mpg`) and serves predictions via a Flask API inside a Docker container.
 
